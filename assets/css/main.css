@@ -152,7 +152,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
+		border-bottom: dotted 3px rgba(255, 255, 255, 0.5);
 		text-decoration: none;
 		color: inherit;
 	}
@@ -189,7 +189,7 @@ input, select, textarea {
 		}
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-			border-bottom: solid 1px #ffffff;
+			border-bottom: solid 3px #ffffff;
 			width: -moz-max-content;
 			width: -webkit-max-content;
 			width: -ms-max-content;
@@ -284,7 +284,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 1px #ffffff;
+		border-bottom: solid 3px #ffffff;
 		margin: 2.75rem 0;
 	}
 
@@ -401,7 +401,7 @@ input, select, textarea {
 		transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 4px;
-		border: solid 1px #ffffff;
+		border: solid px #ffffff;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -427,7 +427,7 @@ input, select, textarea {
 		textarea:focus {
 			background: rgba(255, 255, 255, 0.075);
 			border-color: #ffffff;
-			box-shadow: 0 0 0 1px #ffffff;
+			box-shadow: 0 0 0 3px #ffffff;
 		}
 
 	select {
@@ -517,7 +517,7 @@ input, select, textarea {
 				-ms-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 				transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 				border-radius: 4px;
-				border: solid 1px #ffffff;
+				border: solid 3px #ffffff;
 				content: '';
 				display: inline-block;
 				height: 1.65rem;
@@ -541,7 +541,7 @@ input, select, textarea {
 		input[type="radio"]:focus + label:before {
 			background: rgba(255, 255, 255, 0.075);
 			border-color: #ffffff;
-			box-shadow: 0 0 0 1px #ffffff;
+			box-shadow: 0 0 0 3px #ffffff;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -581,7 +581,7 @@ input, select, textarea {
 
 	.box {
 		border-radius: 4px;
-		border: solid 1px #ffffff;
+		border: solid 3px #ffffff;
 		margin-bottom: 2rem;
 		padding: 1.5em;
 	}
@@ -748,7 +748,7 @@ input, select, textarea {
 		}
 
 			ul.alt li {
-				border-top: solid 1px #ffffff;
+				border-top: solid 3px #ffffff;
 				padding: 0.5em 0;
 			}
 
@@ -912,7 +912,7 @@ input, select, textarea {
 
 			ul.icons li a {
 				border-radius: 100%;
-				box-shadow: inset 0 0 0 1px #ffffff;
+				box-shadow: inset 0 0 0 3px #ffffff;
 				display: inline-block;
 				height: 2.25rem;
 				line-height: 2.25rem;
@@ -941,7 +941,7 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 1px #ffffff;
+			border: solid 3px #ffffff;
 			border-left: 0;
 			border-right: 0;
 		}
@@ -963,7 +963,7 @@ input, select, textarea {
 		}
 
 		table thead {
-			border-bottom: solid 2px #ffffff;
+			border-bottom: solid 3px #ffffff;
 		}
 
 		table tfoot {
@@ -975,17 +975,17 @@ input, select, textarea {
 		}
 
 			table.alt tbody tr td {
-				border: solid 1px #ffffff;
+				border: solid 3px #ffffff;
 				border-left-width: 0;
 				border-top-width: 0;
 			}
 
 				table.alt tbody tr td:first-child {
-					border-left-width: 1px;
+					border-left-width: 3px;
 				}
 
 			table.alt tbody tr:first-child td {
-				border-top-width: 1px;
+				border-top-width: 3px;
 			}
 
 			table.alt thead {
@@ -1014,7 +1014,7 @@ input, select, textarea {
 		background-color: transparent;
 		border-radius: 4px;
 		border: 0;
-		box-shadow: inset 0 0 0 1px #ffffff;
+		box-shadow: inset 0 0 0 3px #ffffff;
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
@@ -1272,10 +1272,10 @@ input, select, textarea {
 				content: '';
 				display: block;
 				position: absolute;
-				top: calc(-3.5rem - 1px);
-				left: calc(50% - 1px);
-				width: 1px;
-				height: calc(3.5rem + 1px);
+				top: calc(-3.5rem - 3px);
+				left: calc(50% - 3px);
+				width: 3px;
+				height: calc(3.5rem + 3px);
 				background: #ffffff;
 			}
 
@@ -1288,10 +1288,10 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
-			line-height: 5.5rem;
-			border: solid 1px #ffffff;
+			width: 7.2rem;
+			height: 7rem;
+			line-height: 9.5rem;
+			border: solid 3px #ffffff;
 			border-radius: 100%;
 		}
 
@@ -1302,8 +1302,8 @@ input, select, textarea {
 		#header .content {
 			border-style: solid;
 			border-color: #ffffff;
-			border-top-width: 1px;
-			border-bottom-width: 1px;
+			border-top-width: 3px;
+			border-bottom-width: 3px;
 			max-width: 100%;
 		}
 
@@ -1340,13 +1340,13 @@ input, select, textarea {
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
-			border: solid 1px #ffffff;
+			border: solid 3px #ffffff;
 			border-radius: 4px;
 		}
 
 			#header nav ul li {
 				padding-left: 0;
-				border-left: solid 1px #ffffff;
+				border-left: solid 3px #ffffff;
 			}
 
 				#header nav ul li:first-child {
@@ -1378,8 +1378,8 @@ input, select, textarea {
 			display: block;
 			position: absolute;
 			top: 0;
-			left: calc(50% - 1px);
-			width: 1px;
+			left: calc(50% - 3px);
+			width: 3px;
 			height: 100%;
 			background: #ffffff;
 		}
@@ -1433,8 +1433,8 @@ input, select, textarea {
 			}
 
 				#header > *:before {
-					top: calc(-2rem - 1px);
-					height: calc(2rem + 1px);
+					top: calc(-2rem - 3px);
+					height: calc(2rem + 3px);
 				}
 
 			#header .logo {
@@ -1478,7 +1478,7 @@ input, select, textarea {
 
 					#header nav ul li {
 						border-left: 0;
-						border-top: solid 1px #ffffff;
+						border-top: solid 3px #ffffff;
 					}
 
 						#header nav ul li:first-child {
